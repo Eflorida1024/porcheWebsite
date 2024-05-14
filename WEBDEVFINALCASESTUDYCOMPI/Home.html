@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>PORSCHE</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styleShop.css">
+    <link rel="stylesheet" href="styleCart.css">
+    <script src="Java.js" defer></script>
+    <link rel="icon" type="image/x-icon" href="IMG/logLOGO.png">
+</head>
+
+<body>
+
+    <nav>
+        <a class="navLogo">PORSCHE</a>
+        <ul class="nav-links">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Shop">Shop</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Contact">Contact</a></li>
+            <li><a href="#kdkd" onclick="toggle_Cartpopup()"><i class="fas fa-shopping-cart"></i></a></li>
+
+        </ul>
+    </nav>
+
+    <div class="videoDIV" id="Home">
+        <video autoplay muted loop id="myVideo">
+            <source src="IMG/VIDBG.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <section class="HomeContent">
+        <h1> Unleash Luxury </h1>
+        <p> Your Destination for Porsche Perfection. </p>
+        <button class="btnShopNow"><a href="#Shop">Shop Now</a></button>
+    </section>
+
+    <div class="Shop" id="Shop">
+        <h1 class="shopTitle">Shop</h1>
+        <div class="products">
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/GT3 911(992).png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 GT3</div>
+                <div class="box">
+                    <div class="price">₱15,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car1)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 99x Electric – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 99x Electric – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱59,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car2)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche Vision Renndienst – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche Vision Renndienst – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱34,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car3)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche Vision Gran Turismo VEXX – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche Vision Gran Turismo VEXX – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱45,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car4)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche Taycan GTS Hockenheimring Edition – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche Taycan GTS Hockenheimring Edition – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱24,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car5)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche Le Mans Living Legend – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche Le Mans Living Legend – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱15,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car6)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 Turbo Coupé (992) – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 Turbo Coupé (992) – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱155,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car7)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 963 24h Daytona 2023.png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 963 24h Daytona 2023</div>
+                <div class="box">
+                    <div class="price">₱99,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car8)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 919 Street – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 919 Street – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱45,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car9)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche Taycan Turbo 4S Cross Turismo – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche Taycan Turbo 4S Cross Turismo – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱569,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car10)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche Vision Spyder – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche Vision Spyder – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱100,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car11)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 GT3 R (992) - Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 GT3 R (992) - Ltd.</div>
+                <div class="box">
+                    <div class="price">₱87,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car12)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 GT3 mit Touring-Paket (992) – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 GT3 mit Touring-Paket (992) – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱10,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car13)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 GT3 (992) signal yellow – Limited edition.png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 GT3 (992) signal yellow – Limited edition.</div>
+                <div class="box">
+                    <div class="price">₱12,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car14)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 GT3 (992) & Porsche 956 – Limited edition.png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 GT3 (992) & Porsche 956 – Limited edition.</div>
+                <div class="box">
+                    <div class="price">₱16,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car5)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 GT2 RS Clubsport 25 – Ltd.png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 GT2 RS Clubsport 25 – Ltd</div>
+                <div class="box">
+                    <div class="price">₱27,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car16)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 Dakar (992) Rally 1974 Design – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 Dakar (992) Rally 1974 Design – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱24,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car17)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 911 Carrera RS 2.7 – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 911 Carrera RS 2.7 – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱19,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car18)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 718 Cayman GT4 RS (982) – Ltd.png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 718 Cayman GT4 RS (982) – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱68,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car19)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+            <!--p1-->
+            <div class="card">
+                <div class="img"><img src="IMG/cars/Porsche 718 Cayman GT4 RS (982) – Ltd..png"></div>
+                <div class="title">992</div>
+                <div class="desc">Porsche 718 Cayman GT4 RS (982) – Ltd.</div>
+                <div class="box">
+                    <div class="price">₱41,990</div>
+                    <button id="btnVieW" class="btnView" onclick="displayProduct(car20)">View</button>
+                </div>
+            </div>
+            <!--p1-->
+
+        </div>
+
+        <div class="previewMenu" id="previewMenu">
+            <div class="productContent">
+                <div class="img_holder">
+                    <img class="add_to_cart_img" id="product_img" src="">
+                </div>
+                <div class="text_content">
+                    <div class="btn-close" onclick="toggle_remove()">&times;</div>
+                    <h1 id="product_name"></h1>
+                    <p id="product_price"></p>
+                    <div class="contSoldby">
+                        <p>Sold by :</p>
+                        <p id="product_soldBy">Porsche Design of America, Inc.</p>
+                    </div>
+
+                    <p id="desc_product">DESCRIPTION: </p>
+                    <p id="product_desc"></p>
+
+                    <div class="contColor">
+                        <p>Color :</p>
+                        <p id="product_color"></p>
+                    </div>
+
+                    <div class="contScale">
+                        <p>Scale :</p>
+                        <p id="product_scale"></p>
+                    </div>
+
+                    <div class="contItemsCount">
+                        <p>Quantity: </p>
+                        <button id="btnMinusITEM" onclick="decreaseQuant()">-</button>
+                        <div class="input_box">
+                            <input type="text" id="itemQuant" name="itemQuant" value="1" required>
+                        </div>
+                        <button id="btnAddItem" onclick="increaseQuant()">+</button>
+                    </div>
+
+                    <button id="btnAdd_to_cart" onclick="add_to_cart()">Add to Cart</button>
+
+                    <button id="btnPlaceOrder">Place Order</button>
+
+                    <div class="contETA">
+                        <p>&#x2022;</p>
+                        <p id="product_ETA">Shipping within 3 to 4 working days</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--
+    
+-->
+    <div class="prevCart" id="prevCart">
+        <h2> ORDERS </h2>
+        <div class="cartContent">
+
+            <div class="btn-Cart" onclick="toggle_Cartremove()">&times;</div>
+
+            <div class="itemContentCart">
+                <table border="0" id="item_list"></table>
+            </div>
+
+            <div class="placeOrderSumm">
+                <h1>TOTAL</h1>
+                <p class="total_price"> Total: <span id="total_price"> 0.00 </span></p>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
